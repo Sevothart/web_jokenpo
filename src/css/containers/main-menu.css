@@ -1,0 +1,15 @@
+.main-menu > .simple-action {
+    font-size: 12px;
+    margin-right: var(--gap-small);
+}
+
+.main-menu > .primary-button  {
+    font-size: 12px;
+    width: 60px;
+    height: 20px;
+
+    display: inline-flex;
+    align-items: center;    
+    justify-content: center;
+    /* or display: inline-block; text-align: center; line-height: 20px; */
+}
