@@ -1,0 +1,16 @@
+.image-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-menu > .shirt-image {
+    width: 20vw;
+    height: 40vh;
+}
+
+.image-menu > .sneaker-image {
+    margin-right: var(--gap-big);
+    width: 20vw;
+    height: 30vh;
+}

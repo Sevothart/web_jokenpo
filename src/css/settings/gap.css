@@ -2,4 +2,6 @@
     --gap-smaller: 15px;
     --gap-small: 22px;
     --gap-medium: 30px;
+    --gap-big: 60px;
+    --gap-main-content: 25vw;
 }

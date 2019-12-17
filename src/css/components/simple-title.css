@@ -3,3 +3,7 @@
     font-family: 'Bitter', serif;
     font-weight: bold;
 }
+
+.simple-title.-blue {
+    color: var(--color-detail);
+}
