@@ -1,0 +1,61 @@
+.about-card{
+    text-align: center;
+    background-color: var(--color-second);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+
+    margin: 20vh 40vw 0;
+
+}
+
+.about-card > .card-background{
+    text-align: center;
+    background: linear-gradient(to right, #5252ff, var(--color-detail));
+
+    height: 160px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.about-card .card-image{
+    border-radius: 50%; /* makes a circle */
+    width: 120px; /* radius of the circle */
+    height: auto;
+
+    position: relative;
+    top: 100px;
+    border: 6px solid var(--color-second);
+}
+
+.about-card > .card-info{
+    text-align: center;
+    margin-top: 80px;
+    padding: 10px;
+}
+
+.about-card .text-content.-mail {
+    color: gray;
+
+    font-size: 15px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-card > .far {
+    display: flex;
+    font-size: 24px;
+
+    margin: var(--gap-smaller) var(--gap-smaller) 0 var(--gap-small);
+}
+
+.about-card > .fab {
+    font-size: 24px;
+
+    margin: var(--gap-smaller) var(--gap-small) 0 0; 
+}

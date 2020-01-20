@@ -1,0 +1,15 @@
+.fab{
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fab:hover{
+    color: var(--color-base);
+}
+
+.far{
+    color: grey;
+    cursor: pointer;
+    text-decoration: none;
+}
